@@ -1,0 +1,71 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "CppBuild",
+			"command": "g++",
+			"args": [
+				"${file}",
+				"-o",
+				"${fileBasenameNoExtension}.exe",
+				"-O2",
+				"-Wall"
+			], // 编译命令参数
+			"type": "shell",
+			"presentation": {
+				"reveal": "silent"
+			},
+			"problemMatcher": {
+				"owner": "cpp",
+				"fileLocation": [
+					"absolute"
+				],
+				"pattern": {
+					"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"column": 3,
+					"severity": 4,
+					"message": 5
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"taskName": "CppDebugBuild",
+			"command": "g++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileBasenameNoExtension}.exe",
+				"-Wall"
+			], // 编译命令参数
+			"type": "shell",
+			"presentation": {
+				"reveal": "silent"
+			},
+			"problemMatcher": {
+				"owner": "cpp",
+				"fileLocation": [
+					"absolute"
+				],
+				"pattern": {
+					"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"column": 3,
+					"severity": 4,
+					"message": 5
+				}
+			},
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			}
+		}
+	]
+}

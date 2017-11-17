@@ -1,0 +1,28 @@
+{
+	"editor.wordWrap": "on",
+	"editor.formatOnPaste": true,
+	"C_Cpp.clang_format_fallbackStyle": "LLVM",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"workbench.iconTheme": "vs-seti",
+	"editor.minimap.enabled": true,
+	"editor.renderIndentGuides": true,
+	"C_Cpp.addWorkspaceRootToIncludePath": false,
+	"files.associations": {
+		"iostream": "cpp",
+		"istream": "cpp",
+		"type_traits": "cpp",
+		"utility": "cpp",
+		"xlocnum": "cpp",
+		"xutility": "cpp"
+	},
+	"python.pythonPath": "C:/Anaconda/Anaconda3/python.exe",
+	"python.linting.pylintPath": "C:/Anaconda/Anaconda3/Scripts/pylint.exe",
+	"python.unitTest.promptToConfigure": false,
+	"python.unitTest.unittestEnabled": false,
+	"python.unitTest.nosetestsEnabled": false,
+	"python.linting.pylintArgs": [
+		"--disable=W0611,C0111,C0103,W0622"
+	]
+}
