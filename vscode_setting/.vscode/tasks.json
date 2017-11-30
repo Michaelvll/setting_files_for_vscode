@@ -78,7 +78,9 @@
 				"${fileBasenameNoExtension}.exe",
 				"-Wall",
 				"-std=c++11;",
-				"drmemory -- ${fileBasenameNoExtension}.exe"
+				"drmemory",
+				"--",
+				"${fileBasenameNoExtension}.exe"
 			], // 编译命令参数
 			"type": "shell",
 			"presentation": {
