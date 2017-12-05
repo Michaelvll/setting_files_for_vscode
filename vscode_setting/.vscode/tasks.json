@@ -14,7 +14,8 @@
 			], // 编译命令参数
 			"type": "shell",
 			"presentation": {
-				"reveal": "silent"
+				"reveal": "always",
+				"focus": true
 			},
 			"problemMatcher": {
 				"owner": "cpp",
@@ -34,6 +35,17 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"label": "CppRun",
+			"command": "./${fileBasenameNoExtension}",
+			"args": [], // 编译命令参数
+			"type": "shell",
+			"presentation": {
+				"reveal": "always",
+				"focus": true
+			},
+			"group": "none"
 		},
 		{
 			"label": "CppDebugBuild",
