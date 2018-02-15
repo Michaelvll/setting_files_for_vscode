@@ -29,7 +29,27 @@
     "matlab.mlintpath": "C:/Program Files/MATLAB/R2017a/bin/win64",
     "matlab.linterEncoding": "GB2312",
     "files.associations": {
-        "*.m": "matlab"
+        "*.m": "matlab",
+        "algorithm": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "queue": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "iostream": "cpp",
+        "*.ipp": "cpp",
+        "xlocmon": "cpp",
+        "xfunctional": "cpp",
+        "string": "cpp"
     },
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
@@ -54,5 +74,6 @@
     "cmake.configureArgs": [
         "-DCMAKE_TOOLCHAIN_FILE=D:/CppLibrary/vcpkg/scripts/buildsystems/vcpkg.cmake"
     ],
-    "cmake.cmakePath": "cmake_vscode"
+    "cmake.cmakePath": "cmake_vscode",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
